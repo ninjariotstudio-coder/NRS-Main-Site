@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reviews | Ninja Riot Studio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1 class="logo">Ninja Riot Studio</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="roadmap.html">Roadmap</a></li>
+        <li><a href="testing.html">Testing</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Community Feedback</h2>
+      <p>
+        ParentShield is currently in active testing. Feedback from real parents
+        is helping shape the future of this platform.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h3>Early Feedback</h3>
+
+      <div class="card">
+        <p>
+          Public reviews and tester feedback will be added here as Ninja Riot Studio
+          continues to grow and more people begin using future products.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h3>Constructive Feedback</h3>
+      <div class="card-grid">
+        <div class="card">
+          <p>"The app locked too often when switching between screens."</p>
+          <p><strong>– Tester Feedback</strong></p>
+        </div>
+
+        <div class="card">
+          <p>"Attachment flow was confusing at first."</p>
+          <p><strong>– Tester Feedback</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h3>Improvements Made</h3>
+      <div class="card-grid">
+        <div class="card">
+          <p>Auto-lock behavior adjusted to reduce interruptions during use.</p>
+        </div>
+
+        <div class="card">
+          <p>Attachment handling improved based on tester feedback.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="leave-review">
+    <div class="container">
+      <h3>Leave a Review</h3>
+
+      <div class="card" style="margin-bottom: 20px;">
+        <p>
+          Reviews are moderated before posting. We welcome honest feedback,
+          including constructive criticism, but we do not publish spam,
+          profanity, harassment, or abusive content.
+        </p>
+      </div>
+
+      <div class="card">
+        <p>
+          Want to share your experience with ParentShield or Ninja Riot Studio?
+          Send your feedback below. Reviews are moderated before being posted.
+        </p>
+
+        <form
+          class="testing-form"
+          action="https://formspree.io/f/mgondqjo"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="New NRS Review Submission" />
+
+          <label for="review-name">Name or Nickname</label>
+          <input type="text" id="review-name" name="name" placeholder="Your name or nickname" />
+
+          <label for="review-email">Email Address</label>
+          <input type="email" id="review-email" name="email" placeholder="Your email" />
+
+          <label for="review-type">What are you reviewing?</label>
+          <select id="review-type" name="review_type">
+            <option value="ParentShield">ParentShield</option>
+            <option value="Ninja Riot Studio">Ninja Riot Studio</option>
+            <option value="Testing Experience">Testing Experience</option>
+          </select>
+
+          <label for="review-rating">Rating</label>
+          <select id="review-rating" name="rating">
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Good</option>
+            <option value="3">3 - Solid</option>
+            <option value="2">2 - Needs work</option>
+            <option value="1">1 - Poor</option>
+          </select>
+
+          <label for="review-message">Your Review</label>
+          <textarea
+            id="review-message"
+            name="message"
+            rows="6"
+            placeholder="Share your honest feedback here"
+            required
+          ></textarea>
+
+          <label style="display:block; margin-top: 12px;">
+            <input type="checkbox" name="approval_acknowledged" required />
+            I understand reviews are moderated before being posted publicly.
+          </label>
+
+          <div class="button-group" style="margin-top: 16px;">
+            <button type="submit" class="btn">Submit Review</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h3>Approved Reviews</h3>
+
+      <div class="card">
+        <p>
+          Approved public reviews will appear here after moderation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h3>What We Value in Feedback</h3>
+      <div class="card-grid">
+        <div class="card">
+          <h4>Real-World Use</h4>
+          <p>We care about how products perform in everyday situations, not just demos.</p>
+        </div>
+
+        <div class="card">
+          <h4>Honest Testing</h4>
+          <p>Clear, direct feedback helps us improve faster and build better tools.</p>
+        </div>
+
+        <div class="card">
+          <h4>Useful Improvements</h4>
+          <p>Every review helps shape updates, polish features, and strengthen the experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h3>Be Part of It</h3>
+      <div class="card">
+        <p>
+          Want to help shape the future of Ninja Riot Studio products?
+          Join testing, share your feedback, and help improve privacy-first tools built for real people.
+        </p>
+        <div class="button-group">
+          <a href="testing.html" class="btn">Join Testing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<section>
+  <div class="container">
+    <h3>Approved Reviews</h3>
+
+    <div class="card">
+      <p>
+        “This is exactly what I wish I had during my custody case.”
+      </p>
+      <p><strong>– ParentShield Tester</strong></p>
+    </div>
+
+    <div class="card">
+      <p>
+        “Being able to log things instantly instead of remembering later is huge.”
+      </p>
+      <p><strong>– Beta Tester</strong></p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Ninja Riot Studio. All rights reserved.</p>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
